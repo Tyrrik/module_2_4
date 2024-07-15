@@ -2,7 +2,7 @@ numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
 
 primes = []
 not_primes = []
-
+primes.append(2)
 for i in numbers:
     for delit in range(2, i):
         if i // 1 == i and i // i == 1 and i % delit != 0:
